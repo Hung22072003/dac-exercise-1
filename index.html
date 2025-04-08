@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.css"
+    /> -->
+    <script src="https://cdn.datatables.net/2.2.2/js/dataTables.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/2.2.2/css/dataTables.bootstrap.min.css"
+    />
+    <!-- <script src="https://cdn.datatables.net/2.2.2/js/dataTables.bootstrap.min.js"></script> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class = "container">
+      <h1>Danh sách sinh viên</h1>
+      <button type="button" class="btn btn-primary">Tạo mới</button>
+
+      <table id="studentTable" class="dataTable table table-bordered">
+        <thead>
+          <tr>
+            <th>
+              <input
+                type="checkbox"
+                value=""
+                class="all-checkbox"
+                id="selectAll"
+              />
+            </th>
+            <th>Mã SV</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Giới tính</th>
+            <th>Địa chỉ</th>
+            <th>Số điện thoại</th>
+            <th>Khoa</th>
+            <th>Chuyên ngành</th>
+            <th>Sửa</th>
+            <th>Xóa</th>
+          </tr>
+        </thead>
+        <!-- <tbody class="table-body"></tbody> -->
+      </table>
+    </div>
+  </body>
+</html>

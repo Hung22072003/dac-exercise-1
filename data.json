@@ -1,0 +1,32 @@
+[
+    {
+        "id": "39",
+        "name": "Nguyễn Văn A",
+        "birthday": "2018-03-12",
+        "gender": "Nam",
+        "address": "52 Trung Nu Vuong",
+        "phone": "4564576457",
+        "faculty": "CNTT",
+        "major": "Phần mềm" 
+    },
+    {
+        "id": "40",
+        "name": "Nguyễn Văn B",
+        "birthday": "2018-09-09",
+        "gender": "Nam",
+        "address": "40 Le Loi",
+        "phone": "456747775",
+        "faculty": "QTKD",
+        "major": "QTKD" 
+    },
+    {
+        "id": "41",
+        "name": "Trần Văn C",
+        "birthday": "2018-03-11",
+        "gender": "Nam",
+        "address": "50 Hung Vuong",
+        "phone": "3456363",
+        "faculty": "Du lịch",
+        "major": "Lữ hành" 
+    }
+]

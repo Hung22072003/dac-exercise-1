@@ -1,0 +1,11 @@
+#studentTable thead tr th:nth-child(2) .dt-column-order::before {
+  opacity: 0.8 !important;
+  font-size: 16px !important;
+  top: 44%;
+  font-family: "Font Awesome 5 Free";
+  content: "\f160" !important; /* fa-sort-up */
+}
+
+#studentTable thead tr th:nth-child(2) .dt-column-order::after {
+  display: none;
+}
